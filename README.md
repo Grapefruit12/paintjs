@@ -1,5 +1,5 @@
 # paintjs
-Painting Board made with VanillaJs
+그림판 만들기:Painting Board made with VanillaJs
 
 완료함
 paint:선
