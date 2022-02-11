@@ -99,8 +99,8 @@ function handleCM(event){
 }
 
 function handleSaveClick(){
-    const image=canvas.toDataURL();
-    const link=document.createElement("a");
+    const image=canvas.toDataURL("image/png");//캔버스의 데이터url
+    const link=document.createElement("a");//html a요소 만듬
     
     link.href=image;
     link.download="PaintJS[🎨]";//download: 다운로드시 파일 이름
